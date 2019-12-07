@@ -1,8 +1,6 @@
 # bobjin.me
-Static site for bobjin.me
-
-## Test
-Does github only host static sites, or does it show cool css sites too?
+This is a website where I can tell people about some cool stuff I'm trying to do that involve computers.
 
 ### Credits
-None yet. Do you want to be here? Get in contact with me :-)
+My brother Jim - for pushing me to do more
+AJ - for the fantastic responsive CSS theme on a Creative Commons 3.0 Licence

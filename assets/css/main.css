@@ -148,19 +148,30 @@ input, select, textarea {
 	}
 
 	a {
-        -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+        -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+        /* -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out; */
+        border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
         border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
-        color: #87ceeb;
-        /* color: inherit; */
-	}
+        color: inherit;
+    }
 
 		a:hover {
 			border-bottom-color: transparent;
-		}
+        }
+        a.inline {
+            color: #87ceeb;
+        }
+            a.inline:hover{
+                color: #58a0c3;
+                font-size: 1.2rem;
+            }
 
 	strong, b {
 		color: #ffffff;
